@@ -28,6 +28,7 @@ while True:
 
     print(f"Your random number is {random_number}")
     print(f"Your Guess number is {user_guess}")
+     random_number = random.randint(1, top_of_range)
 
 print(f"Your random number is {random_number}")
 print(f"Your Guess number is {user_guess}")
